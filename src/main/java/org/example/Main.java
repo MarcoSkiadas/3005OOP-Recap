@@ -13,5 +13,25 @@ public class Main {
 
         System.out.println(library);
 
+
+
+
+        /*
+        Car speedcar = new Car("VW","Golf",2005,"Blue");
+        Car slowcar = new Car("BMW","3",2002,"Red");
+
+        speedcar.start();
+        speedcar.accelerates();
+        speedcar.accelerates();
+        speedcar.accelerates();
+
+
+        System.out.println(speedcar.getSpeed());
+
+        Person thomas = new Person("Thomas",44,"Male");
+
+        thomas.introduction();
+*/
+
     }
 }

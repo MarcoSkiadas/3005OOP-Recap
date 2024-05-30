@@ -21,4 +21,24 @@ public class Car {
     public void accelerates() {
         this.speed++;
     }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public int getYearOfManufacture() {
+        return yearOfManufacture;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public int getSpeed() {
+        return speed;
+    }
 }
