@@ -6,6 +6,7 @@ public class Main {
         Book books1 = new Book("Test","mcTest","1234");
         Book books2 = new Book("Test2","mcTest2","1233");
         Book books3 = new Book("Test3","mcTest3","1232");
+        Book books4 = new Book("Test4","mcTest4","1233");
 
         System.out.println(books1+"\n"+books2+"\n"+books3+"\n");
 
@@ -13,7 +14,10 @@ public class Main {
 
         System.out.println(library);
 
-
+    library.add(books4);
+    System.out.println(library);
+    library.remove(books3);
+    System.out.println(library);
 
 
         /*
