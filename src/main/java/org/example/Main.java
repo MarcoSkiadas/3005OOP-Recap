@@ -9,6 +9,9 @@ public class Main {
 
         System.out.println(books1+"\n"+books2+"\n"+books3+"\n");
 
+    Library library = new Library(new Book[]{books1,books2, books3});
+
+        System.out.println(library);
 
     }
 }
